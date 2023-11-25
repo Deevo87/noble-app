@@ -1,30 +1,11 @@
-# React + TypeScript + Vite
+# BitWebTask
+It's project for recruitment task for student reasearch group BITWeb.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## To run application you have to:
+  1. Open terminal and type: `git clone https://github.com/Deevo87/noble-app.git`
+  2. Run following commands: `cd noble-prize-app` then `npm install` and `npm run dev`
+  3. To open app go to `http://localhost:5173/`
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Dlaczego akurat ja się nadaje?
+  Jestem studentem trzeciego roku na ścieżce wytwarzanie oprogramowania i zdobyłem niezbędne doświadczenie do tworzenia stron internetowych i infrasturktury wokół nich. Dzięki takim przedmiotom jak wstęp do aplikacji inetrnetowych posiadłem umiejętności z podstaw tworzenia forntendu i używania frameworków do robienia tego, na podstawach baz danych i bazach danych 2 nauczyłem się projektować i utrzymywać bazy danych. Projektowanie obiektowe i technologie obiektowe nauczyły mnie jak powinno się pisać kod i go utrzymywać przez wiedzę o wzorcach projektowych. Uważam, doświadczenie które zdobyłem przez 2 lata studiowania robią ze mnie dobrego kandydata do koła naukowego BITWeb.
+  
