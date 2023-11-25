@@ -5,7 +5,7 @@ It's project for recruitment task for student reasearch group BITWeb.
 ## To run application you have to:
 
 1. Open terminal and type: `git clone https://github.com/Deevo87/noble-app.git`
-2. Run following commands: `cd noble-prize-app` then `npm install` and `npm run dev`
+2. Run following commands: `cd noble-app` then `npm install` and `npm run dev`
 3. To open app go to `http://localhost:5173/`
 
 ## Dlaczego akurat ja się nadaje?
