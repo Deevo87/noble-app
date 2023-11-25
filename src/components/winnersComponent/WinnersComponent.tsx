@@ -9,13 +9,13 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { useParams } from "react-router-dom";
-import { useNobelPrize, PrizeData } from "../../services/noblePrizesService";
+import { useNobelPrize } from "../../services/noblePrizesService";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: theme.palette.common.black,
     color: theme.palette.common.white,
-    cursor: "pointer", // Dodajemy styl kursora jako wskazanie, że kolumna jest klikalna
+    cursor: "pointer",
   },
   [`&.${tableCellClasses.body}`]: {
     fontSize: 14,
@@ -26,7 +26,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   "&:nth-of-type(odd)": {
     backgroundColor: theme.palette.action.hover,
   },
-  // hide last border
   "&:last-child td, &:last-child th": {
     border: 0,
   },
@@ -35,7 +34,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 export default function CustomizedTables() {
   const { loading, getRowData } = useNobelPrize();
   const { year, language } = useParams();
-  // const [order, setOrder] = useState<"asc" | "desc">("asc"); // śledzenie akutalnego kierunku sortowania
   const [order, setOrder] = useState("desc"); // śledzenie akutalnego kierunku sortowania
   const [orderBy, setOrderBy] = useState("category"); // śledzenie kolumny po której sortujemy
   const [rows, setRows] = useState(getRowData(year, language)); // śledzenie danych tabeli w rows
@@ -77,7 +75,8 @@ export default function CustomizedTables() {
 
   return (
     <div>
-      <h1>Nagrody z rok {year}</h1>
+      <h1>Prizes from {year}</h1>
+      <h1>To sort by certain column just click on it</h1>
       <TableContainer component={Paper}>
         <Table aria-label="customized table">
           <TableHead>
