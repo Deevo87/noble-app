@@ -56,7 +56,7 @@ export const SelectComponent = () => {
 
   return (
     <div className="main">
-      <h1>Choose this year's Nobel Prize winner:</h1>
+      <h1>Choose year of Nobel Prize winner</h1>
       <div className="main">
         <FormControl sx={{ m: 2, minWidth: 120 }} size="small">
           <InputLabel id="demo-select-small-label">Year</InputLabel>
